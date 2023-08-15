@@ -31,9 +31,5 @@ public class MainActivity extends AppCompatActivity {
             Intent new_intent=new Intent(getApplicationContext(), Activity_list.class);
             startActivity(new_intent);
         });
-
-        Token.retrieveFirebaseToken(getApplicationContext());
     }
-
-
 }

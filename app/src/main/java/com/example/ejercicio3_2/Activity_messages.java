@@ -43,6 +43,7 @@ public class Activity_messages extends AppCompatActivity {
             // Inicia el Intent
             startActivity(intent);
         });
+        Token.retrieveFirebaseToken(getApplicationContext());
     }
 
     private ActivityResultLauncher<String> notificationPermissionLauncher =
